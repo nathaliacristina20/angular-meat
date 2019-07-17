@@ -3,7 +3,7 @@ import { MenuItem } from "app/restaurant-detail/menu-item/menu-item.model";
 
 export class ShoppingCartService {
 
-    items: CartItem[];
+    items: CartItem[] = [];
 
     clear(){
         this.items = [];
@@ -28,3 +28,5 @@ export class ShoppingCartService {
     total(): number{
         return this.items.map(item => item.value()).reduce((prev, value) => prev + value, 0)
     }
+
+}
