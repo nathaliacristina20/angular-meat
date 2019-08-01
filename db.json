@@ -370,5 +370,32 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "aaaaaaaaaaaa",
+      "number": "aaaaaaaaaa",
+      "optionalAddress": "aaaaaaaaa",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "sunday"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "aaaaa",
+      "number": "aaaa",
+      "optionalAddress": "aaa",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "capp"
+        }
+      ],
+      "id": 2
+    }
+  ]
 }
