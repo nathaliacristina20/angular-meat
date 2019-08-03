@@ -44,8 +44,7 @@ import { CoreModule } from './core/core.module';
     HttpModule,
     FormsModule,
     ReactiveFormsModule,
-    SharedModule,
-    CoreModule,
+    SharedModule.forRoot(),
     RouterModule.forRoot(ROUTES)    
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'pt-BR'}],
